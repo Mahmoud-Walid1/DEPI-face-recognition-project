@@ -1,0 +1,502 @@
+2025-05-08 21:18:39,061 - INFO - Using device: cpu
+2025-05-08 21:18:39,458 - INFO - MTCNN and InceptionResnetV1 initialized successfully in utils.py
+2025-05-08 21:18:39,509 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+2025-05-08 21:18:39,509 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 21:18:39,520 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-08 21:18:43,224 - INFO - Using device: cpu
+2025-05-08 21:18:43,561 - INFO - MTCNN and InceptionResnetV1 initialized successfully in utils.py
+2025-05-08 21:18:43,571 - WARNING -  * Debugger is active!
+2025-05-08 21:18:43,574 - INFO -  * Debugger PIN: 307-638-418
+2025-05-08 21:20:18,672 - INFO - 192.168.1.5 - - [08/May/2025 21:20:18] "GET / HTTP/1.1" 200 -
+2025-05-08 21:20:19,233 - INFO - 192.168.1.5 - - [08/May/2025 21:20:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-08 21:20:21,474 - INFO - 192.168.1.5 - - [08/May/2025 21:20:21] "GET /attendance HTTP/1.1" 200 -
+2025-05-08 21:20:21,522 - INFO - 192.168.1.5 - - [08/May/2025 21:20:21] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:20:29,682 - INFO - 192.168.1.5 - - [08/May/2025 21:20:29] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:20:45,145 - INFO - 192.168.1.5 - - [08/May/2025 21:20:45] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:20:45,337 - INFO - Face detected at coordinates: (66, 38, 174, 182)
+2025-05-08 21:20:45,550 - INFO - Successfully extracted face embedding
+2025-05-08 21:20:45,553 - INFO - 192.168.1.5 - - [08/May/2025 21:20:45] "POST /recognize HTTP/1.1" 200 -
+2025-05-08 21:20:45,605 - INFO - 192.168.1.5 - - [08/May/2025 21:20:45] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:20:45,703 - INFO - 192.168.1.5 - - [08/May/2025 21:20:45] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:20:48,578 - INFO - 192.168.1.5 - - [08/May/2025 21:20:48] "GET /register HTTP/1.1" 200 -
+2025-05-08 21:20:48,637 - INFO - 192.168.1.5 - - [08/May/2025 21:20:48] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:20:48,652 - INFO - 192.168.1.5 - - [08/May/2025 21:20:48] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:21:09,373 - INFO - 192.168.1.5 - - [08/May/2025 21:21:09] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:21:09,432 - INFO - Image quality analysis: {'sharpness': 240.0880198118422, 'brightness': 147.1130859375, 'face_detected': True}
+2025-05-08 21:21:09,456 - INFO - Generated 6 augmented images
+2025-05-08 21:21:09,510 - INFO - Face detected at coordinates: (78, 44, 215, 232)
+2025-05-08 21:21:09,719 - INFO - Successfully extracted face embedding
+2025-05-08 21:21:09,769 - INFO - Face detected at coordinates: (76, 40, 214, 230)
+2025-05-08 21:21:09,966 - INFO - Successfully extracted face embedding
+2025-05-08 21:21:10,018 - INFO - Face detected at coordinates: (80, 47, 220, 235)
+2025-05-08 21:21:10,201 - INFO - Successfully extracted face embedding
+2025-05-08 21:21:10,255 - INFO - Face detected at coordinates: (100, 43, 237, 233)
+2025-05-08 21:21:10,415 - INFO - Successfully extracted face embedding
+2025-05-08 21:21:10,459 - INFO - Face detected at coordinates: (76, 44, 217, 230)
+2025-05-08 21:21:10,652 - INFO - Successfully extracted face embedding
+2025-05-08 21:21:10,700 - INFO - Face detected at coordinates: (77, 41, 215, 235)
+2025-05-08 21:21:10,860 - INFO - Successfully extracted face embedding
+2025-05-08 21:21:10,865 - INFO - Successfully saved embeddings for user 1 with 6 images
+2025-05-08 21:21:12,231 - INFO - Attendance recorded for user 1 - Status: Check-in
+2025-05-08 21:21:12,243 - INFO - 192.168.1.5 - - [08/May/2025 21:21:12] "POST /capture HTTP/1.1" 200 -
+2025-05-08 21:21:12,344 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:21:12,345 - INFO - 192.168.1.5 - - [08/May/2025 21:21:12] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:21:12,348 - INFO - 192.168.1.5 - - [08/May/2025 21:21:12] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:21:18,951 - INFO - 192.168.1.5 - - [08/May/2025 21:21:18] "GET /register HTTP/1.1" 200 -
+2025-05-08 21:21:19,018 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:21:19,018 - INFO - 192.168.1.5 - - [08/May/2025 21:21:19] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:21:19,029 - INFO - 192.168.1.5 - - [08/May/2025 21:21:19] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:21:21,671 - INFO - 192.168.1.5 - - [08/May/2025 21:21:21] "GET /attendance HTTP/1.1" 200 -
+2025-05-08 21:21:21,763 - INFO - 192.168.1.5 - - [08/May/2025 21:21:21] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:21:21,827 - INFO - 192.168.1.5 - - [08/May/2025 21:21:21] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:21:28,577 - INFO - 192.168.1.5 - - [08/May/2025 21:21:28] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:21:28,615 - INFO - Face detected at coordinates: (92, 68, 208, 224)
+2025-05-08 21:21:28,752 - INFO - Successfully extracted face embedding
+2025-05-08 21:21:28,755 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:21:28,815 - INFO - Attendance recorded for user 1 - Status: Check-in
+2025-05-08 21:21:28,819 - INFO - 192.168.1.5 - - [08/May/2025 21:21:28] "POST /recognize HTTP/1.1" 200 -
+2025-05-08 21:21:28,896 - INFO - 192.168.1.5 - - [08/May/2025 21:21:28] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:21:28,949 - INFO - 192.168.1.5 - - [08/May/2025 21:21:28] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:21:35,177 - INFO - 192.168.1.5 - - [08/May/2025 21:21:35] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:21:35,218 - INFO - Face detected at coordinates: (93, 58, 217, 220)
+2025-05-08 21:21:35,384 - INFO - Successfully extracted face embedding
+2025-05-08 21:21:35,386 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:21:35,448 - INFO - Attendance recorded for user 1 - Status: Check-out
+2025-05-08 21:21:35,455 - INFO - 192.168.1.5 - - [08/May/2025 21:21:35] "POST /checkout HTTP/1.1" 200 -
+2025-05-08 21:21:35,543 - INFO - 192.168.1.5 - - [08/May/2025 21:21:35] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:21:35,547 - INFO - 192.168.1.5 - - [08/May/2025 21:21:35] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:21:51,292 - INFO - 192.168.1.5 - - [08/May/2025 21:21:51] "GET / HTTP/1.1" 200 -
+2025-05-08 21:38:11,779 - INFO - Starting Flask app...
+2025-05-08 21:38:13,726 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+2025-05-08 21:38:13,726 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 21:38:13,738 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-08 21:38:17,397 - INFO - Starting Flask app...
+2025-05-08 21:38:20,074 - WARNING -  * Debugger is active!
+2025-05-08 21:38:20,084 - INFO -  * Debugger PIN: 307-638-418
+2025-05-08 21:38:40,709 - INFO - 192.168.1.5 - - [08/May/2025 21:38:40] "GET / HTTP/1.1" 200 -
+2025-05-08 21:38:43,348 - INFO - Generating performance report...
+2025-05-08 21:38:43,364 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:38:43,365 - INFO - FAR history: [0.0]
+2025-05-08 21:38:43,366 - INFO - FAR labels: ['No data']
+2025-05-08 21:38:43,813 - INFO - 192.168.1.5 - - [08/May/2025 21:38:43] "GET /performance_report HTTP/1.1" 200 -
+2025-05-08 21:38:57,470 - INFO - 192.168.1.5 - - [08/May/2025 21:38:57] "GET /register HTTP/1.1" 200 -
+2025-05-08 21:38:57,522 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:38:57,523 - INFO - 192.168.1.5 - - [08/May/2025 21:38:57] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:38:59,004 - INFO - 192.168.1.5 - - [08/May/2025 21:38:59] "GET /attendance HTTP/1.1" 200 -
+2025-05-08 21:38:59,576 - INFO - 192.168.1.5 - - [08/May/2025 21:38:59] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:39:03,907 - INFO - 192.168.1.5 - - [08/May/2025 21:39:03] "GET / HTTP/1.1" 200 -
+2025-05-08 21:39:07,671 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:39:07,827 - INFO - Documentation generated successfully
+2025-05-08 21:39:07,852 - INFO - 192.168.1.5 - - [08/May/2025 21:39:07] "GET /generate_docs HTTP/1.1" 200 -
+2025-05-08 21:39:11,757 - INFO - Generating performance report...
+2025-05-08 21:39:11,781 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:39:11,785 - INFO - FAR history: [0.0]
+2025-05-08 21:39:11,789 - INFO - FAR labels: ['No data']
+2025-05-08 21:39:11,854 - INFO - 192.168.1.5 - - [08/May/2025 21:39:11] "GET /performance_report HTTP/1.1" 200 -
+2025-05-08 21:39:15,012 - INFO - 192.168.1.5 - - [08/May/2025 21:39:15] "GET /register HTTP/1.1" 200 -
+2025-05-08 21:39:15,083 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:39:15,084 - INFO - 192.168.1.5 - - [08/May/2025 21:39:15] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:39:15,106 - INFO - Video capture initialized
+2025-05-08 21:39:15,225 - INFO - Video capture initialized
+2025-05-08 21:39:15,350 - INFO -  * Detected change in 'C:\\Users\\Mahmoud\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\wsgi.py', reloading
+2025-05-08 21:39:15,356 - INFO - 192.168.1.5 - - [08/May/2025 21:39:15] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:39:15,358 - INFO - 192.168.1.5 - - [08/May/2025 21:39:15] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:39:15,401 - INFO - 192.168.1.5 - - [08/May/2025 21:39:15] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:39:24,889 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-08 21:40:11,790 - INFO - Starting Flask app...
+2025-05-08 21:40:14,212 - WARNING -  * Debugger is active!
+2025-05-08 21:40:14,215 - INFO -  * Debugger PIN: 307-638-418
+2025-05-08 21:40:14,249 - INFO - 192.168.1.5 - - [08/May/2025 21:40:14] "GET /register HTTP/1.1" 200 -
+2025-05-08 21:40:14,302 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:40:14,303 - INFO - 192.168.1.5 - - [08/May/2025 21:40:14] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:40:33,246 - INFO - Video capture initialized
+2025-05-08 21:40:33,475 - INFO - 192.168.1.5 - - [08/May/2025 21:40:33] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:40:46,903 - INFO - 192.168.1.5 - - [08/May/2025 21:40:46] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:40:48,623 - INFO - Successfully saved embeddings for user 2 with 4 images
+2025-05-08 21:40:49,773 - INFO - Attendance recorded for user 2 - Status: Check-in
+2025-05-08 21:40:49,786 - INFO - 192.168.1.5 - - [08/May/2025 21:40:49] "POST /capture HTTP/1.1" 200 -
+2025-05-08 21:40:49,892 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:40:49,893 - INFO - 192.168.1.5 - - [08/May/2025 21:40:49] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:40:49,914 - INFO - 192.168.1.5 - - [08/May/2025 21:40:49] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:40:54,802 - INFO - Deleted user 2
+2025-05-08 21:40:54,803 - INFO - 192.168.1.5 - - [08/May/2025 21:40:54] "POST /delete_user HTTP/1.1" 200 -
+2025-05-08 21:40:54,818 - INFO - Loaded embeddings database with 1 users
+2025-05-08 21:40:54,818 - INFO - 192.168.1.5 - - [08/May/2025 21:40:54] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:41:08,484 - INFO - 192.168.1.5 - - [08/May/2025 21:41:08] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:41:09,357 - INFO - Successfully saved embeddings for user 2 with 4 images
+2025-05-08 21:41:09,472 - INFO - Attendance recorded for user 2 - Status: Check-in
+2025-05-08 21:41:09,478 - INFO - 192.168.1.5 - - [08/May/2025 21:41:09] "POST /capture HTTP/1.1" 200 -
+2025-05-08 21:41:09,542 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:41:09,543 - INFO - 192.168.1.5 - - [08/May/2025 21:41:09] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:41:09,568 - INFO - 192.168.1.5 - - [08/May/2025 21:41:09] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:41:14,075 - INFO - 192.168.1.5 - - [08/May/2025 21:41:14] "GET /attendance HTTP/1.1" 200 -
+2025-05-08 21:41:14,141 - INFO - 192.168.1.5 - - [08/May/2025 21:41:14] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:41:14,170 - INFO - 192.168.1.5 - - [08/May/2025 21:41:14] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:41:35,356 - INFO - 192.168.1.5 - - [08/May/2025 21:41:35] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:41:35,535 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:41:35,599 - INFO - Attendance recorded for user 2 - Status: Check-in
+2025-05-08 21:41:35,599 - INFO - Recognition attempt: {'timestamp': '2025-05-08 21:41:35', 'user_id': '2', 'status': 'Success', 'distance': '0.6508'}
+2025-05-08 21:41:35,603 - INFO - 192.168.1.5 - - [08/May/2025 21:41:35] "POST /recognize HTTP/1.1" 200 -
+2025-05-08 21:41:35,701 - INFO - 192.168.1.5 - - [08/May/2025 21:41:35] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:41:35,715 - INFO - 192.168.1.5 - - [08/May/2025 21:41:35] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:41:53,635 - INFO - 192.168.1.5 - - [08/May/2025 21:41:53] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:41:53,934 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:41:54,018 - INFO - Attendance recorded for user 2 - Status: Check-in
+2025-05-08 21:41:54,018 - INFO - Recognition attempt: {'timestamp': '2025-05-08 21:41:54', 'user_id': '2', 'status': 'Success', 'distance': '0.6548'}
+2025-05-08 21:41:54,025 - INFO - 192.168.1.5 - - [08/May/2025 21:41:54] "POST /recognize HTTP/1.1" 200 -
+2025-05-08 21:41:54,107 - INFO - 192.168.1.5 - - [08/May/2025 21:41:54] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:41:54,133 - INFO - 192.168.1.5 - - [08/May/2025 21:41:54] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:42:20,104 - INFO - Generating performance report...
+2025-05-08 21:42:20,106 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:42:20,106 - INFO - FAR history: [0.0, 0.0]
+2025-05-08 21:42:20,106 - INFO - FAR labels: ['Attempt 1', 'Attempt 2']
+2025-05-08 21:42:20,124 - INFO - 192.168.1.5 - - [08/May/2025 21:42:20] "GET /performance_report HTTP/1.1" 200 -
+2025-05-08 21:42:58,006 - INFO - 192.168.1.5 - - [08/May/2025 21:42:58] "GET /attendance HTTP/1.1" 200 -
+2025-05-08 21:42:58,083 - INFO - 192.168.1.5 - - [08/May/2025 21:42:58] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:42:58,107 - INFO - 192.168.1.5 - - [08/May/2025 21:42:58] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:42:59,577 - INFO - 192.168.1.5 - - [08/May/2025 21:42:59] "GET /register HTTP/1.1" 200 -
+2025-05-08 21:42:59,711 - INFO - 192.168.1.5 - - [08/May/2025 21:42:59] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:42:59,719 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:42:59,719 - INFO - 192.168.1.5 - - [08/May/2025 21:42:59] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:43:01,301 - INFO - 192.168.1.5 - - [08/May/2025 21:43:01] "GET /attendance HTTP/1.1" 200 -
+2025-05-08 21:43:01,396 - INFO - 192.168.1.5 - - [08/May/2025 21:43:01] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:43:01,403 - INFO - 192.168.1.5 - - [08/May/2025 21:43:01] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:43:03,341 - INFO - 192.168.1.5 - - [08/May/2025 21:43:03] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:43:03,587 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:43:03,672 - INFO - Attendance recorded for user 1 - Status: Check-in
+2025-05-08 21:43:03,672 - INFO - Recognition attempt: {'timestamp': '2025-05-08 21:43:03', 'user_id': '1', 'status': 'Success', 'distance': '0.6154'}
+2025-05-08 21:43:03,677 - INFO - 192.168.1.5 - - [08/May/2025 21:43:03] "POST /recognize HTTP/1.1" 200 -
+2025-05-08 21:43:03,769 - INFO - 192.168.1.5 - - [08/May/2025 21:43:03] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:43:03,770 - INFO - 192.168.1.5 - - [08/May/2025 21:43:03] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:43:07,775 - INFO - 192.168.1.5 - - [08/May/2025 21:43:07] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:43:07,980 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:43:07,981 - INFO - Recognition attempt: {'timestamp': '2025-05-08 21:43:07', 'user_id': 'Unknown', 'status': 'Failure', 'distance': '1.2577'}
+2025-05-08 21:43:07,983 - INFO - 192.168.1.5 - - [08/May/2025 21:43:07] "POST /recognize HTTP/1.1" 200 -
+2025-05-08 21:43:08,055 - INFO - 192.168.1.5 - - [08/May/2025 21:43:08] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 21:43:08,068 - INFO - 192.168.1.5 - - [08/May/2025 21:43:08] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:43:10,042 - INFO - Generating performance report...
+2025-05-08 21:43:10,043 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:43:10,043 - INFO - FAR history: [0.0, 0.0, 0.0, 0.24999999999375]
+2025-05-08 21:43:10,043 - INFO - FAR labels: ['Attempt 1', 'Attempt 2', 'Attempt 3', 'Attempt 4']
+2025-05-08 21:43:10,044 - INFO - 192.168.1.5 - - [08/May/2025 21:43:10] "GET /performance_report HTTP/1.1" 200 -
+2025-05-08 21:43:34,033 - INFO - 192.168.1.5 - - [08/May/2025 21:43:34] "GET /register HTTP/1.1" 200 -
+2025-05-08 21:43:34,089 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:43:34,089 - INFO - 192.168.1.5 - - [08/May/2025 21:43:34] "GET /users HTTP/1.1" 200 -
+2025-05-08 21:43:34,100 - INFO - 192.168.1.5 - - [08/May/2025 21:43:34] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 21:43:35,708 - INFO - 192.168.1.5 - - [08/May/2025 21:43:35] "GET / HTTP/1.1" 200 -
+2025-05-08 21:43:43,151 - INFO - 192.168.1.5 - - [08/May/2025 21:43:43] "GET / HTTP/1.1" 200 -
+2025-05-08 21:48:20,419 - INFO - Starting Flask app...
+2025-05-08 21:48:22,558 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+2025-05-08 21:48:22,558 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 21:48:22,567 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-08 21:48:27,287 - INFO - Starting Flask app...
+2025-05-08 21:48:29,679 - WARNING -  * Debugger is active!
+2025-05-08 21:48:29,683 - INFO -  * Debugger PIN: 307-638-418
+2025-05-08 21:48:41,751 - INFO - 192.168.1.5 - - [08/May/2025 21:48:41] "GET / HTTP/1.1" 200 -
+2025-05-08 21:48:42,095 - INFO - 192.168.1.5 - - [08/May/2025 21:48:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-08 21:52:00,539 - INFO - 192.168.1.5 - - [08/May/2025 21:52:00] "GET / HTTP/1.1" 200 -
+2025-05-08 21:52:01,931 - INFO - 192.168.1.5 - - [08/May/2025 21:52:01] "GET / HTTP/1.1" 200 -
+2025-05-08 21:52:41,520 - INFO - 192.168.1.5 - - [08/May/2025 21:52:41] "GET / HTTP/1.1" 200 -
+2025-05-08 21:52:53,167 - INFO - Starting Flask app...
+2025-05-08 21:52:55,500 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+2025-05-08 21:52:55,500 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 21:52:55,508 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-08 21:53:03,385 - INFO - Starting Flask app...
+2025-05-08 21:53:05,460 - WARNING -  * Debugger is active!
+2025-05-08 21:53:05,464 - INFO -  * Debugger PIN: 307-638-418
+2025-05-08 21:53:05,499 - INFO - 192.168.1.5 - - [08/May/2025 21:53:05] "GET / HTTP/1.1" 200 -
+2025-05-08 21:53:07,009 - INFO - 192.168.1.5 - - [08/May/2025 21:53:07] "GET / HTTP/1.1" 200 -
+2025-05-08 21:53:29,594 - INFO - 192.168.1.5 - - [08/May/2025 21:53:29] "GET / HTTP/1.1" 200 -
+2025-05-08 21:53:30,571 - INFO - 192.168.1.5 - - [08/May/2025 21:53:30] "GET / HTTP/1.1" 200 -
+2025-05-08 21:53:31,179 - INFO - 192.168.1.5 - - [08/May/2025 21:53:31] "GET / HTTP/1.1" 200 -
+2025-05-08 21:53:52,285 - INFO - Starting Flask app...
+2025-05-08 21:53:55,072 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+2025-05-08 21:53:55,072 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 21:53:55,093 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-08 21:54:01,431 - INFO - Starting Flask app...
+2025-05-08 21:54:03,673 - WARNING -  * Debugger is active!
+2025-05-08 21:54:03,676 - INFO -  * Debugger PIN: 307-638-418
+2025-05-08 21:54:03,708 - INFO - 192.168.1.5 - - [08/May/2025 21:54:03] "GET / HTTP/1.1" 200 -
+2025-05-08 21:54:08,282 - INFO - 192.168.1.5 - - [08/May/2025 21:54:08] "GET / HTTP/1.1" 200 -
+2025-05-08 21:54:11,524 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:54:12,227 - INFO - Documentation generated successfully
+2025-05-08 21:54:12,231 - INFO - 192.168.1.5 - - [08/May/2025 21:54:12] "GET /generate_docs HTTP/1.1" 200 -
+2025-05-08 21:55:23,592 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:55:23,648 - INFO - Documentation generated successfully
+2025-05-08 21:55:23,775 - INFO - 192.168.1.5 - - [08/May/2025 21:55:23] "GET /generate_docs HTTP/1.1" 200 -
+2025-05-08 21:55:46,205 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:55:46,224 - INFO - Documentation generated successfully
+2025-05-08 21:55:46,288 - INFO - 192.168.1.5 - - [08/May/2025 21:55:46] "GET /generate_docs HTTP/1.1" 200 -
+2025-05-08 21:56:25,530 - INFO - Loaded embeddings database with 2 users
+2025-05-08 21:56:25,553 - INFO - Documentation generated successfully
+2025-05-08 21:56:25,618 - INFO - 192.168.1.5 - - [08/May/2025 21:56:25] "GET /generate_docs HTTP/1.1" 200 -
+2025-05-08 22:00:22,895 - INFO - Loaded embeddings database with 2 users
+2025-05-08 22:00:22,934 - INFO - Documentation generated successfully
+2025-05-08 22:00:22,950 - INFO - 192.168.1.5 - - [08/May/2025 22:00:22] "GET /generate_docs HTTP/1.1" 200 -
+2025-05-08 22:02:45,424 - INFO - Loaded embeddings database with 2 users
+2025-05-08 22:02:45,452 - INFO - Documentation generated successfully
+2025-05-08 22:02:45,505 - INFO - 192.168.1.5 - - [08/May/2025 22:02:45] "GET /generate_docs HTTP/1.1" 200 -
+2025-05-08 22:07:05,230 - INFO - Starting Flask app...
+2025-05-08 22:07:07,679 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+2025-05-08 22:07:07,680 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-08 22:07:07,700 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-08 22:07:12,976 - INFO - Starting Flask app...
+2025-05-08 22:07:15,383 - WARNING -  * Debugger is active!
+2025-05-08 22:07:15,389 - INFO -  * Debugger PIN: 307-638-418
+2025-05-08 22:07:15,456 - INFO - 127.0.0.1 - - [08/May/2025 22:07:15] "GET / HTTP/1.1" 200 -
+2025-05-08 22:07:16,036 - INFO - 127.0.0.1 - - [08/May/2025 22:07:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-08 22:07:22,510 - INFO - 127.0.0.1 - - [08/May/2025 22:07:22] "GET /register HTTP/1.1" 200 -
+2025-05-08 22:07:22,584 - INFO - Loaded embeddings database with 2 users
+2025-05-08 22:07:22,584 - INFO - 127.0.0.1 - - [08/May/2025 22:07:22] "GET /users HTTP/1.1" 200 -
+2025-05-08 22:07:24,995 - INFO - 127.0.0.1 - - [08/May/2025 22:07:24] "GET /attendance HTTP/1.1" 200 -
+2025-05-08 22:07:26,946 - INFO - 127.0.0.1 - - [08/May/2025 22:07:26] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 22:07:27,286 - INFO - Generating performance report...
+2025-05-08 22:07:27,290 - INFO - Loaded embeddings database with 2 users
+2025-05-08 22:07:27,291 - INFO - FAR history: [0.0]
+2025-05-08 22:07:27,292 - INFO - FAR labels: ['No data']
+2025-05-08 22:07:27,327 - INFO - 127.0.0.1 - - [08/May/2025 22:07:27] "GET /performance_report HTTP/1.1" 200 -
+2025-05-08 22:07:34,562 - INFO - Video capture initialized
+2025-05-08 22:07:36,457 - INFO - 127.0.0.1 - - [08/May/2025 22:07:36] "GET /attendance HTTP/1.1" 200 -
+2025-05-08 22:07:36,586 - INFO - 127.0.0.1 - - [08/May/2025 22:07:36] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-08 22:07:36,721 - INFO - Video capture initialized
+2025-05-08 22:07:36,957 - INFO - 127.0.0.1 - - [08/May/2025 22:07:36] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 22:07:36,968 - INFO - 127.0.0.1 - - [08/May/2025 22:07:36] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 22:07:36,999 - INFO - 127.0.0.1 - - [08/May/2025 22:07:36] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 22:07:42,710 - INFO - 127.0.0.1 - - [08/May/2025 22:07:42] "GET /register HTTP/1.1" 200 -
+2025-05-08 22:07:43,086 - INFO - Loaded embeddings database with 2 users
+2025-05-08 22:07:43,087 - INFO - 127.0.0.1 - - [08/May/2025 22:07:43] "GET /users HTTP/1.1" 200 -
+2025-05-08 22:07:43,099 - INFO - 127.0.0.1 - - [08/May/2025 22:07:43] "GET /video_feed HTTP/1.1" 200 -
+2025-05-08 22:07:45,918 - INFO - 127.0.0.1 - - [08/May/2025 22:07:45] "GET / HTTP/1.1" 200 -
+2025-05-11 21:18:12,607 - INFO - Starting Flask app...
+2025-05-11 21:18:14,449 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+2025-05-11 21:18:14,449 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 21:18:14,464 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-11 21:18:18,856 - INFO - Starting Flask app...
+2025-05-11 21:18:21,883 - WARNING -  * Debugger is active!
+2025-05-11 21:18:21,889 - INFO -  * Debugger PIN: 307-638-418
+2025-05-11 21:19:28,848 - INFO - 127.0.0.1 - - [11/May/2025 21:19:28] "GET / HTTP/1.1" 200 -
+2025-05-11 21:19:31,570 - INFO - 127.0.0.1 - - [11/May/2025 21:19:31] "GET /attendance HTTP/1.1" 200 -
+2025-05-11 21:19:33,129 - INFO - 127.0.0.1 - - [11/May/2025 21:19:33] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:19:39,236 - INFO - Video capture initialized
+2025-05-11 21:19:39,511 - INFO - 127.0.0.1 - - [11/May/2025 21:19:39] "GET /video_feed HTTP/1.1" 200 -
+2025-05-11 21:19:46,243 - INFO - 127.0.0.1 - - [11/May/2025 21:19:46] "GET /video_feed HTTP/1.1" 200 -
+2025-05-11 21:19:46,879 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:19:47,052 - INFO - Attendance recorded for user 1 - Status: Check-in
+2025-05-11 21:19:47,054 - INFO - Recognition attempt: {'timestamp': '2025-05-11 21:19:47', 'user_id': '1', 'status': 'Success', 'distance': '0.5414'}
+2025-05-11 21:19:47,070 - INFO - 127.0.0.1 - - [11/May/2025 21:19:47] "POST /recognize HTTP/1.1" 200 -
+2025-05-11 21:19:47,163 - INFO - 127.0.0.1 - - [11/May/2025 21:19:47] "GET /video_feed HTTP/1.1" 200 -
+2025-05-11 21:19:47,223 - INFO - 127.0.0.1 - - [11/May/2025 21:19:47] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:19:50,952 - INFO - 127.0.0.1 - - [11/May/2025 21:19:50] "GET /attendance HTTP/1.1" 200 -
+2025-05-11 21:19:51,018 - INFO - 127.0.0.1 - - [11/May/2025 21:19:51] "GET /video_feed HTTP/1.1" 200 -
+2025-05-11 21:19:51,036 - INFO - 127.0.0.1 - - [11/May/2025 21:19:51] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:19:53,018 - INFO - 127.0.0.1 - - [11/May/2025 21:19:53] "GET /register HTTP/1.1" 200 -
+2025-05-11 21:19:53,105 - INFO - 127.0.0.1 - - [11/May/2025 21:19:53] "GET /video_feed HTTP/1.1" 200 -
+2025-05-11 21:19:53,109 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:19:53,110 - INFO - 127.0.0.1 - - [11/May/2025 21:19:53] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:19:54,754 - INFO - Generating performance report...
+2025-05-11 21:19:54,758 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:19:54,759 - INFO - FAR history: [0.0]
+2025-05-11 21:19:54,759 - INFO - FAR labels: ['Attempt 1']
+2025-05-11 21:19:54,926 - INFO - 127.0.0.1 - - [11/May/2025 21:19:54] "GET /performance_report HTTP/1.1" 200 -
+2025-05-11 21:20:02,271 - INFO - 127.0.0.1 - - [11/May/2025 21:20:02] "GET /register HTTP/1.1" 200 -
+2025-05-11 21:20:02,338 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:20:02,339 - INFO - 127.0.0.1 - - [11/May/2025 21:20:02] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:20:02,343 - INFO - 127.0.0.1 - - [11/May/2025 21:20:02] "GET /video_feed HTTP/1.1" 200 -
+2025-05-11 21:20:03,974 - INFO - 127.0.0.1 - - [11/May/2025 21:20:03] "GET / HTTP/1.1" 200 -
+2025-05-11 21:21:14,524 - INFO - Starting Flask app...
+2025-05-11 21:21:16,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+2025-05-11 21:21:16,117 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 21:21:16,128 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-11 21:21:20,623 - INFO - Starting Flask app...
+2025-05-11 21:21:22,186 - WARNING -  * Debugger is active!
+2025-05-11 21:21:22,189 - INFO -  * Debugger PIN: 307-638-418
+2025-05-11 21:21:26,950 - INFO - 127.0.0.1 - - [11/May/2025 21:21:26] "GET / HTTP/1.1" 200 -
+2025-05-11 21:21:29,292 - INFO - 127.0.0.1 - - [11/May/2025 21:21:29] "GET /attendance HTTP/1.1" 200 -
+2025-05-11 21:21:29,367 - INFO - 127.0.0.1 - - [11/May/2025 21:21:29] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:21:29,615 - INFO - 127.0.0.1 - - [11/May/2025 21:21:29] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:21:49,700 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:21:49,749 - INFO - Attendance recorded for user 1 - Status: Check-in
+2025-05-11 21:21:49,749 - INFO - Recognition attempt: {'timestamp': '2025-05-11 21:21:49', 'user_id': '1', 'status': 'Success', 'distance': '0.6703'}
+2025-05-11 21:21:49,928 - INFO - 127.0.0.1 - - [11/May/2025 21:21:49] "POST /recognize HTTP/1.1" 200 -
+2025-05-11 21:21:50,039 - INFO - 127.0.0.1 - - [11/May/2025 21:21:50] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:21:50,044 - INFO - 127.0.0.1 - - [11/May/2025 21:21:50] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:21:54,352 - INFO - 127.0.0.1 - - [11/May/2025 21:21:54] "GET /register HTTP/1.1" 200 -
+2025-05-11 21:21:54,440 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:21:54,441 - INFO - 127.0.0.1 - - [11/May/2025 21:21:54] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:21:54,475 - INFO - 127.0.0.1 - - [11/May/2025 21:21:54] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:25:39,915 - INFO - Starting Flask app...
+2025-05-11 21:25:41,954 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.5:8000
+2025-05-11 21:25:41,954 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-11 21:25:41,980 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-11 21:25:46,422 - INFO - Starting Flask app...
+2025-05-11 21:25:47,990 - WARNING -  * Debugger is active!
+2025-05-11 21:25:47,995 - INFO -  * Debugger PIN: 307-638-418
+2025-05-11 21:25:48,111 - INFO - 127.0.0.1 - - [11/May/2025 21:25:48] "GET /register HTTP/1.1" 200 -
+2025-05-11 21:25:48,492 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:25:48,493 - INFO - 127.0.0.1 - - [11/May/2025 21:25:48] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:25:48,536 - INFO - 127.0.0.1 - - [11/May/2025 21:25:48] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:26:41,425 - INFO - Successfully saved embeddings for user 3 with 4 images
+2025-05-11 21:26:41,751 - INFO - Attendance recorded for user 3 - Status: Check-in
+2025-05-11 21:26:41,754 - INFO - 127.0.0.1 - - [11/May/2025 21:26:41] "POST /capture HTTP/1.1" 200 -
+2025-05-11 21:26:41,824 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:26:41,825 - INFO - 127.0.0.1 - - [11/May/2025 21:26:41] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:26:41,832 - INFO - 127.0.0.1 - - [11/May/2025 21:26:41] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:26:44,520 - INFO - 127.0.0.1 - - [11/May/2025 21:26:44] "GET /attendance HTTP/1.1" 200 -
+2025-05-11 21:26:47,329 - INFO - 127.0.0.1 - - [11/May/2025 21:26:47] "GET /attendance HTTP/1.1" 200 -
+2025-05-11 21:27:10,366 - INFO - Generating performance report...
+2025-05-11 21:27:10,367 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:27:10,367 - INFO - FAR history: [0.0]
+2025-05-11 21:27:10,367 - INFO - FAR labels: ['No data']
+2025-05-11 21:27:10,377 - INFO - 127.0.0.1 - - [11/May/2025 21:27:10] "GET /performance_report HTTP/1.1" 200 -
+2025-05-11 21:27:15,764 - INFO - 127.0.0.1 - - [11/May/2025 21:27:15] "GET /attendance HTTP/1.1" 200 -
+2025-05-11 21:27:17,328 - INFO - 127.0.0.1 - - [11/May/2025 21:27:17] "GET /register HTTP/1.1" 200 -
+2025-05-11 21:27:17,384 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:27:17,384 - INFO - 127.0.0.1 - - [11/May/2025 21:27:17] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:27:17,410 - INFO - 127.0.0.1 - - [11/May/2025 21:27:17] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:27:19,169 - INFO - 127.0.0.1 - - [11/May/2025 21:27:19] "GET / HTTP/1.1" 200 -
+2025-05-11 21:28:21,130 - INFO - 127.0.0.1 - - [11/May/2025 21:28:21] "GET /attendance HTTP/1.1" 200 -
+2025-05-11 21:28:21,219 - INFO - 127.0.0.1 - - [11/May/2025 21:28:21] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:28:21,251 - INFO - 127.0.0.1 - - [11/May/2025 21:28:21] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:29:04,712 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:29:04,713 - INFO - Recognition attempt: {'timestamp': '2025-05-11 21:29:04', 'user_id': 'Unknown', 'status': 'Failure', 'distance': '0.7644'}
+2025-05-11 21:29:04,714 - INFO - 127.0.0.1 - - [11/May/2025 21:29:04] "POST /recognize HTTP/1.1" 200 -
+2025-05-11 21:29:04,785 - INFO - 127.0.0.1 - - [11/May/2025 21:29:04] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:29:04,795 - INFO - 127.0.0.1 - - [11/May/2025 21:29:04] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:29:27,914 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:29:27,915 - INFO - Recognition attempt: {'timestamp': '2025-05-11 21:29:27', 'user_id': 'Unknown', 'status': 'Failure', 'distance': '0.7253'}
+2025-05-11 21:29:27,915 - INFO - 127.0.0.1 - - [11/May/2025 21:29:27] "POST /recognize HTTP/1.1" 200 -
+2025-05-11 21:29:27,977 - INFO - 127.0.0.1 - - [11/May/2025 21:29:27] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:29:27,986 - INFO - 127.0.0.1 - - [11/May/2025 21:29:27] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:29:47,842 - INFO - 127.0.0.1 - - [11/May/2025 21:29:47] "GET /register HTTP/1.1" 200 -
+2025-05-11 21:29:47,889 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:29:47,890 - INFO - 127.0.0.1 - - [11/May/2025 21:29:47] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:29:47,912 - INFO - 127.0.0.1 - - [11/May/2025 21:29:47] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:30:14,361 - INFO - Deleted user 3
+2025-05-11 21:30:14,362 - INFO - 127.0.0.1 - - [11/May/2025 21:30:14] "POST /delete_user HTTP/1.1" 200 -
+2025-05-11 21:30:14,384 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:30:14,387 - INFO - 127.0.0.1 - - [11/May/2025 21:30:14] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:30:31,574 - INFO - Successfully saved embeddings for user 3 with 4 images
+2025-05-11 21:30:31,612 - INFO - Attendance recorded for user 3 - Status: Check-in
+2025-05-11 21:30:31,615 - INFO - 127.0.0.1 - - [11/May/2025 21:30:31] "POST /capture HTTP/1.1" 200 -
+2025-05-11 21:30:31,683 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:30:31,683 - INFO - 127.0.0.1 - - [11/May/2025 21:30:31] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:30:31,697 - INFO - 127.0.0.1 - - [11/May/2025 21:30:31] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:30:33,402 - INFO - 127.0.0.1 - - [11/May/2025 21:30:33] "GET /attendance HTTP/1.1" 200 -
+2025-05-11 21:30:33,472 - INFO - 127.0.0.1 - - [11/May/2025 21:30:33] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:30:33,494 - INFO - 127.0.0.1 - - [11/May/2025 21:30:33] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:30:39,226 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:30:39,261 - INFO - Attendance recorded for user 3 - Status: Check-in
+2025-05-11 21:30:39,262 - INFO - Recognition attempt: {'timestamp': '2025-05-11 21:30:39', 'user_id': '3', 'status': 'Success', 'distance': '0.5835'}
+2025-05-11 21:30:39,264 - INFO - 127.0.0.1 - - [11/May/2025 21:30:39] "POST /recognize HTTP/1.1" 200 -
+2025-05-11 21:30:39,329 - INFO - 127.0.0.1 - - [11/May/2025 21:30:39] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:30:39,361 - INFO - 127.0.0.1 - - [11/May/2025 21:30:39] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:30:44,251 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:30:44,251 - INFO - Recognition attempt: {'timestamp': '2025-05-11 21:30:44', 'user_id': 'Unknown', 'status': 'Failure', 'distance': '0.7906'}
+2025-05-11 21:30:44,252 - INFO - 127.0.0.1 - - [11/May/2025 21:30:44] "POST /recognize HTTP/1.1" 200 -
+2025-05-11 21:30:44,317 - INFO - 127.0.0.1 - - [11/May/2025 21:30:44] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:30:44,326 - INFO - 127.0.0.1 - - [11/May/2025 21:30:44] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:30:51,817 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:30:51,851 - INFO - Attendance recorded for user 3 - Status: Check-in
+2025-05-11 21:30:51,851 - INFO - Recognition attempt: {'timestamp': '2025-05-11 21:30:51', 'user_id': '3', 'status': 'Success', 'distance': '0.5516'}
+2025-05-11 21:30:51,854 - INFO - 127.0.0.1 - - [11/May/2025 21:30:51] "POST /recognize HTTP/1.1" 200 -
+2025-05-11 21:30:51,914 - INFO - 127.0.0.1 - - [11/May/2025 21:30:51] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:30:51,941 - INFO - 127.0.0.1 - - [11/May/2025 21:30:51] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:30:58,278 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:30:58,278 - INFO - Recognition attempt: {'timestamp': '2025-05-11 21:30:58', 'user_id': 'Unknown', 'status': 'Failure', 'distance': '0.7906'}
+2025-05-11 21:30:58,279 - INFO - 127.0.0.1 - - [11/May/2025 21:30:58] "POST /recognize HTTP/1.1" 200 -
+2025-05-11 21:30:58,332 - INFO - 127.0.0.1 - - [11/May/2025 21:30:58] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:30:58,346 - INFO - 127.0.0.1 - - [11/May/2025 21:30:58] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:31:04,835 - INFO - 127.0.0.1 - - [11/May/2025 21:31:04] "GET /register HTTP/1.1" 200 -
+2025-05-11 21:31:04,882 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:31:04,883 - INFO - 127.0.0.1 - - [11/May/2025 21:31:04] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:31:04,900 - INFO - 127.0.0.1 - - [11/May/2025 21:31:04] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:31:05,972 - INFO - Generating performance report...
+2025-05-11 21:31:05,973 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:31:05,973 - INFO - FAR history: [0.9999999999, 0.99999999995, 0.6666666666444444, 0.74999999998125, 0.599999999988, 0.6666666666555555]
+2025-05-11 21:31:05,973 - INFO - FAR labels: ['Attempt 1', 'Attempt 2', 'Attempt 3', 'Attempt 4', 'Attempt 5', 'Attempt 6']
+2025-05-11 21:31:05,974 - INFO - 127.0.0.1 - - [11/May/2025 21:31:05] "GET /performance_report HTTP/1.1" 200 -
+2025-05-11 21:37:18,015 - INFO - Generating performance report...
+2025-05-11 21:37:18,019 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:37:18,020 - INFO - FAR history: [0.9999999999, 0.99999999995, 0.6666666666444444, 0.74999999998125, 0.599999999988, 0.6666666666555555]
+2025-05-11 21:37:18,021 - INFO - FAR labels: ['Attempt 1', 'Attempt 2', 'Attempt 3', 'Attempt 4', 'Attempt 5', 'Attempt 6']
+2025-05-11 21:37:18,301 - INFO - 127.0.0.1 - - [11/May/2025 21:37:18] "GET /performance_report HTTP/1.1" 200 -
+2025-05-11 21:37:18,503 - INFO - 127.0.0.1 - - [11/May/2025 21:37:18] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:37:22,804 - INFO - 127.0.0.1 - - [11/May/2025 21:37:22] "GET /attendance HTTP/1.1" 200 -
+2025-05-11 21:37:22,857 - INFO - 127.0.0.1 - - [11/May/2025 21:37:22] "GET /attendance_records HTTP/1.1" 200 -
+2025-05-11 21:37:22,862 - INFO - 127.0.0.1 - - [11/May/2025 21:37:22] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:37:23,622 - INFO - 127.0.0.1 - - [11/May/2025 21:37:23] "GET /register HTTP/1.1" 200 -
+2025-05-11 21:37:23,667 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:37:23,668 - INFO - 127.0.0.1 - - [11/May/2025 21:37:23] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:37:23,695 - INFO - 127.0.0.1 - - [11/May/2025 21:37:23] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:37:24,221 - INFO - 127.0.0.1 - - [11/May/2025 21:37:24] "GET / HTTP/1.1" 200 -
+2025-05-11 21:37:24,265 - INFO - 127.0.0.1 - - [11/May/2025 21:37:24] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:37:31,979 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:37:32,002 - INFO - Documentation generated successfully
+2025-05-11 21:37:32,003 - INFO - 127.0.0.1 - - [11/May/2025 21:37:32] "GET /generate_docs HTTP/1.1" 200 -
+2025-05-11 21:37:32,052 - INFO - 127.0.0.1 - - [11/May/2025 21:37:32] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:43:55,955 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:43:55,986 - INFO - Documentation generated successfully
+2025-05-11 21:43:55,987 - INFO - 127.0.0.1 - - [11/May/2025 21:43:55] "GET /generate_docs HTTP/1.1" 200 -
+2025-05-11 21:43:56,159 - INFO - 127.0.0.1 - - [11/May/2025 21:43:56] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:43:57,571 - INFO - 127.0.0.1 - - [11/May/2025 21:43:57] "GET / HTTP/1.1" 200 -
+2025-05-11 21:43:57,636 - INFO - 127.0.0.1 - - [11/May/2025 21:43:57] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:43:58,471 - INFO - 127.0.0.1 - - [11/May/2025 21:43:58] "GET /register HTTP/1.1" 200 -
+2025-05-11 21:43:58,504 - INFO - Loaded embeddings database with 3 users
+2025-05-11 21:43:58,505 - INFO - 127.0.0.1 - - [11/May/2025 21:43:58] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:43:58,539 - INFO - 127.0.0.1 - - [11/May/2025 21:43:58] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:44:11,517 - INFO - Deleted user 3
+2025-05-11 21:44:11,518 - INFO - 127.0.0.1 - - [11/May/2025 21:44:11] "POST /delete_user HTTP/1.1" 200 -
+2025-05-11 21:44:11,546 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:44:11,548 - INFO - 127.0.0.1 - - [11/May/2025 21:44:11] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:45:25,578 - ERROR - Error capturing image: 'NoneType' object has no attribute 'split'
+2025-05-11 21:45:25,580 - INFO - 127.0.0.1 - - [11/May/2025 21:45:25] "POST /capture HTTP/1.1" 200 -
+2025-05-11 21:45:25,637 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:45:25,638 - INFO - 127.0.0.1 - - [11/May/2025 21:45:25] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:45:25,670 - INFO - 127.0.0.1 - - [11/May/2025 21:45:25] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:45:46,805 - ERROR - Error capturing image: 'NoneType' object has no attribute 'split'
+2025-05-11 21:45:46,806 - INFO - 127.0.0.1 - - [11/May/2025 21:45:46] "POST /capture HTTP/1.1" 200 -
+2025-05-11 21:45:46,909 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:45:46,909 - INFO - 127.0.0.1 - - [11/May/2025 21:45:46] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:45:46,932 - INFO - 127.0.0.1 - - [11/May/2025 21:45:46] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:48:13,640 - ERROR - Error capturing image: 'NoneType' object has no attribute 'split'
+2025-05-11 21:48:13,753 - INFO - 127.0.0.1 - - [11/May/2025 21:48:13] "POST /capture HTTP/1.1" 200 -
+2025-05-11 21:48:13,872 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:48:13,873 - INFO - 127.0.0.1 - - [11/May/2025 21:48:13] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:48:13,894 - INFO - 127.0.0.1 - - [11/May/2025 21:48:13] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:48:25,701 - ERROR - Error capturing image: 'NoneType' object has no attribute 'split'
+2025-05-11 21:48:25,703 - INFO - 127.0.0.1 - - [11/May/2025 21:48:25] "POST /capture HTTP/1.1" 200 -
+2025-05-11 21:48:25,772 - INFO - Loaded embeddings database with 2 users
+2025-05-11 21:48:25,772 - INFO - 127.0.0.1 - - [11/May/2025 21:48:25] "GET /users HTTP/1.1" 200 -
+2025-05-11 21:48:25,793 - INFO - 127.0.0.1 - - [11/May/2025 21:48:25] "[33mGET /cdn-cgi/challenge-platform/scripts/jsd/main.js HTTP/1.1[0m" 404 -
+2025-05-11 21:52:56,613 - INFO -  * Detected change in 'e:\\Try 1 Flask\\main.py', reloading
+2025-05-11 21:52:56,615 - INFO -  * Detected change in 'e:\\Try 1 Flask\\main.py', reloading
+2025-05-11 21:52:56,615 - INFO -  * Detected change in 'e:\\Try 1 Flask\\main.py', reloading
+2025-05-11 21:52:56,616 - INFO -  * Detected change in 'e:\\Try 1 Flask\\main.py', reloading
+2025-05-11 21:52:59,190 - INFO -  * Restarting with watchdog (windowsapi)

@@ -1,0 +1,132 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Attendance System</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+            color: #1f2937;
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+        }
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navbar a {
+            color: #1f2937;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            transition: all 0.3s ease;
+        }
+        .navbar a:hover {
+            background: #f3f4f6;
+            color: #3b82f6;
+            transform: scale(1.05);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            animation: slideIn 0.5s ease-out;
+        }
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.375rem;
+            color: #ffffff;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .btn-blue {
+            background: #3b82f6;
+        }
+        .btn-blue:hover {
+            background: #2563eb;
+        }
+        .btn-green {
+            background: #22c55e;
+        }
+        .btn-green:hover {
+            background: #16a34a;
+        }
+        .btn-purple {
+            background: #9333ea;
+        }
+        .btn-purple:hover {
+            background: #7e22ce;
+        }
+        .btn-yellow {
+            background: #eab308;
+        }
+        .btn-yellow:hover {
+            background: #ca8a04;
+        }
+        .message-success {
+            background: #dcfce7;
+            color: #15803d;
+            padding: 1rem;
+            border-radius: 0.375rem;
+            animation: fadeIn 0.5s ease-in;
+        }
+        .message-error {
+            background: #fee2e2;
+            color: #b91c1c;
+            padding: 1rem;
+            border-radius: 0.375rem;
+            animation: fadeIn 0.5s ease-in;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar fixed top-0 w-full p-4 z-10">
+        <div class="container mx-auto flex justify-center space-x-4">
+            <a href="/" class="font-medium"><i class="fas fa-home mr-1"></i>Home</a>
+            <a href="/register" class="font-medium"><i class="fas fa-user-plus mr-1"></i>Register New User</a>
+            <a href="/attendance" class="font-medium"><i class="fas fa-clipboard-check mr-1"></i>Record Attendance</a>
+            <a href="/performance_report" class="font-medium"><i class="fas fa-chart-line mr-1"></i>Performance Report</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto mt-20">
+        <div class="card max-w-2xl mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-6">Face Recognition Attendance System</h1>
+            <div class="flex justify-center space-x-4 flex-wrap">
+                <a href="/register" class="btn btn-blue mb-4"><i class="fas fa-user-plus mr-1"></i>Register New User</a>
+                <a href="/attendance" class="btn btn-green mb-4"><i class="fas fa-clipboard-check mr-1"></i>Record Attendance</a>
+                <a href="/performance_report" class="btn btn-yellow mb-4"><i class="fas fa-chart-line mr-1"></i>View Performance Report</a>
+            </div>
+            {% if message %}
+            <p class="mt-4 message-{{ message_type }}">{{ message }}</p>
+            {% endif %}
+        </div>
+    </div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93e3ae64bf6453df',t:'MTc0Njk4NzUzMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</body>
+</html>
+```

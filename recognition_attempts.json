@@ -1,0 +1,194 @@
+[
+  {
+    "ID": "Unknown",
+    "Similarity": 0.0,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-11",
+    "Time": "22:43:50"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": 0.0,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-11",
+    "Time": "22:45:23"
+  },
+  {
+    "ID": "brad_alexander_smith",
+    "Similarity": 1.0,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-11",
+    "Time": "22:51:27"
+  },
+  {
+    "ID": "brad_alexander_smith",
+    "Similarity": 0.7072798013687134,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-11",
+    "Time": "22:52:15"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": null,
+    "Result": "NoFace",
+    "Error": "dictionary changed size during iteration",
+    "Date": "2025-05-11",
+    "Time": "23:07:58"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": 0.0,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-11",
+    "Time": "23:21:40"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": 0.0,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-11",
+    "Time": "23:22:10"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": 0.0,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "00:11:30"
+  },
+  {
+    "ID": "10",
+    "Similarity": 1.0,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "00:13:07"
+  },
+  {
+    "ID": "10",
+    "Similarity": 0.8793715238571167,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "00:13:29"
+  },
+  {
+    "ID": "maureen_kanka",
+    "Similarity": 0.9838497638702393,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "02:43:18"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": 0.0,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:17:35"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": 0.0,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:18:13"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": 0.0,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:18:38"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": 0.0,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:18:57"
+  },
+  {
+    "ID": "kemal_dervis",
+    "Similarity": 0.7143363488080311,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:28:12"
+  },
+  {
+    "ID": "kemal_dervis",
+    "Similarity": 0.877494326562228,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:28:26"
+  },
+  {
+    "ID": "maureen_kanka",
+    "Similarity": 0.9838496563726272,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:28:33"
+  },
+  {
+    "ID": "imad_moustapha",
+    "Similarity": 0.6041065517956556,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:28:41"
+  },
+  {
+    "ID": "mickey_loomis",
+    "Similarity": 0.7070837053393354,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:28:53"
+  },
+  {
+    "ID": "imad_moustapha",
+    "Similarity": 0.6556209309776507,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:29:02"
+  },
+  {
+    "ID": "alexander_payne",
+    "Similarity": 0.7245212625818679,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:30:04"
+  },
+  {
+    "ID": "Unknown",
+    "Similarity": 0.599752795745926,
+    "Result": "NoMatch",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:31:00"
+  },
+  {
+    "ID": "franz_fischler",
+    "Similarity": 0.7579505504211091,
+    "Result": "Success",
+    "Error": null,
+    "Date": "2025-05-12",
+    "Time": "03:32:01"
+  }
+]
